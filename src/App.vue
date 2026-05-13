@@ -16,7 +16,7 @@ onMounted(async () => {
   exercises.value = await response.json()
 })
 </script>
-ç
+
 <template>
   <main>
     <h1>Fitness Trainer</h1>
