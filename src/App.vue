@@ -12,7 +12,7 @@ type Exercise = {
 const exercises = ref<Exercise[]>([])
 
 onMounted(async () => {
-  const response = await fetch('http://localhost:8080/fitnesstrainer')
+  const response = await fetch('https://fitnesstrainer-diu4.onrender.com/fitnesstrainer')
   exercises.value = await response.json()
 })
 </script>
